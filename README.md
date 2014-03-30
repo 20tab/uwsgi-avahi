@@ -3,13 +3,15 @@ uwsgi-avahi
 
 uWSGI plugin for avahi integration (based on uwsgi-bonjour)
 
-The bonjour uWSGI plugin (https://github.com/unbit/uwsgi-bonjour) allows your instances to register service
+The bonjour uWSGI plugin (https://github.com/unbit/uwsgi-bonjour) allows your instances to register services
 in your mdns system.
 
 This plugin totally mimic its behaviour for non-apple systems (currently tested only on Linux).
 
 Building it
 ===========
+
+(be sure to have libavahi-client development headers installed)
 
 just run
 
